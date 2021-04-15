@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Hello Flickr!" />
+    <Flickr></Flickr>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Flickr from "./components/Flickr.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
+    Flickr,
   },
 };
 </script>
